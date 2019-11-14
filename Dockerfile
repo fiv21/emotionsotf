@@ -1,4 +1,4 @@
-FROM tensorflow:latest-gpu-py3-jupyter
+FROM tensorflow/tensorflow:latest-gpu-py3-jupyter
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install git -y
